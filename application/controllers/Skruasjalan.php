@@ -15,7 +15,7 @@ class Skruasjalan extends CI_Controller{
     /*
      * Listing of laporan
      */
-    function index ()
+    function index()
     {       
 
         $recaptcha = $this->recaptcha->create_box();
